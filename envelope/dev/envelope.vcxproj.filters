@@ -9,5 +9,13 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{c52af880-7da5-4067-8374-e2ce488a5158}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\data\2017-01.csv">
+      <Filter>Data Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
