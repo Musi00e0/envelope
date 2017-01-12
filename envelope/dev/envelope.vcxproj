@@ -160,7 +160,11 @@
     <None Include="..\data\2017-01.csv" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CSVFile.cpp" />
     <ClCompile Include="src\_driver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CSVFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
