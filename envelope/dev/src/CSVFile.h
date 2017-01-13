@@ -2,6 +2,8 @@
 #define CSVFILE_H_
 
 #include <fstream>
+#include <vector>
+#include <string>
 
 class CSVFile
 {
@@ -10,7 +12,8 @@ public:
 
 
 private:
-	std::fstream	file;
+	std::fstream				file;
+	std::vector<std::string>	transactions;
 };
 
 #endif
