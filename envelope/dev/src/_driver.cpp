@@ -19,7 +19,7 @@ int main(int argc, char** argv)
 	USDollarAmount a("12.34");
 	USDollarAmount b(a);			// copy ctor
 	USDollarAmount c = b;			// also copy ctor
-	USDollarAmount d = "23.45";		// ctor defined for string
+	USDollarAmount d("23.45");		// ctor defined for string
 
 	d = "-34.45";					// operator= for string
 	d = "45";						// make sure that if it's a pure integer, that cents gets correctly reset
