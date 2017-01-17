@@ -5,7 +5,12 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	//CSVFile dataFile("data/2017-01.csv");
+	CSVFile dataFile("data/2017-01.csv");
+    if(dataFile.IsOpen())
+    {
+        vector<Transaction> Transactions;
+        dataFile.ReadTransactions(Transactions);
+    }
 	
 	
 	USDollarAmount start("40789.97");

@@ -17,15 +17,22 @@ CSVFile::CSVFile(const char* FileName, ios_base::openmode Mode) : file(FileName,
 		{
 			getline(file, line);
 		}
-
-		while (!file.eof())
-		{
-			getline(file, line);
-			cout << line << endl;
-		}
 	}
 	else
 	{
 		cout << "Couldn't open the data file.  Check working directory" << endl;
 	}
+}
+
+void CSVFile::ReadTransactions(std::vector<Transaction>& Transactions)
+{
+    string line;
+    while (!file.eof())
+    {
+        getline(file, line);
+        if(line.length() > 0)
+        {
+            Transactions.push_back(line);
+        }
+    }
 }

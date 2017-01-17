@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F5B4F911E2DCC0400845515 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B4F8F1E2DCC0400845515 /* Transaction.cpp */; };
 		5FF3C2281E2C8DC7004F8D3E /* _driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3C2231E2C8DC7004F8D3E /* _driver.cpp */; };
 		5FF3C2291E2C8DC7004F8D3E /* CSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3C2241E2C8DC7004F8D3E /* CSVFile.cpp */; };
 		5FF3C22A1E2C8DC7004F8D3E /* USDollarAmount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF3C2261E2C8DC7004F8D3E /* USDollarAmount.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F5B4F8F1E2DCC0400845515 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transaction.cpp; path = src/Transaction.cpp; sourceTree = SOURCE_ROOT; };
+		5F5B4F901E2DCC0400845515 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = src/Transaction.h; sourceTree = SOURCE_ROOT; };
 		5F83D11B1E2C9A7D0064714F /* 2017-01.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = "2017-01.csv"; path = "../data/2017-01.csv"; sourceTree = "<group>"; };
 		5FF3C2041E2C8972004F8D3E /* envelope */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = envelope; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF3C2231E2C8DC7004F8D3E /* _driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = _driver.cpp; path = src/_driver.cpp; sourceTree = SOURCE_ROOT; };
@@ -70,6 +73,8 @@
 				5FF3C2251E2C8DC7004F8D3E /* CSVFile.h */,
 				5FF3C2261E2C8DC7004F8D3E /* USDollarAmount.cpp */,
 				5FF3C2271E2C8DC7004F8D3E /* USDollarAmount.h */,
+				5F5B4F8F1E2DCC0400845515 /* Transaction.cpp */,
+				5F5B4F901E2DCC0400845515 /* Transaction.h */,
 			);
 			path = envelope;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			files = (
 				5FF3C2291E2C8DC7004F8D3E /* CSVFile.cpp in Sources */,
 				5FF3C2281E2C8DC7004F8D3E /* _driver.cpp in Sources */,
+				5F5B4F911E2DCC0400845515 /* Transaction.cpp in Sources */,
 				5FF3C22A1E2C8DC7004F8D3E /* USDollarAmount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
